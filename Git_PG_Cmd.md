@@ -46,12 +46,12 @@
 
 ## ブランチ(枝訳)・マージ(合体)
 
-- git branch newversion
-  例）git branch develop //新規 develop ブランチ作成
+- git branch newversion  
+  例）git branch develop //新規 develop ブランチ作成  
   例）git branch 　//　現在ブランチ確認
 - git merge newversion ※注意　 main のブランチで実行
 - git log --oneline ※Git ID 確認
-- git checkout XXXXXXX ※Git ID のポジションに一時的に戻れる
+- git checkout XXXXXXX ※Git ID のポジションに一時的に戻れる  
   例）git checkout develop 　//　 develop 他のブランチに変更
 - git branch XXXXXXX2 ※そのポジションから　新ブランチ作成
 - git checkout main ※main のブランチに戻る
